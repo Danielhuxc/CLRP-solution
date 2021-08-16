@@ -28,12 +28,13 @@ and save it as follows \
 ./extra_data/cbt_valid.txt \
 ./extra_data/simple_english_wiki.txt
 
-CLRP training data goes to 
-./data/train.csv
+CLRP training data goes to \
+./data/train.csv \
 ./data/test.csv
 
 ### train from scratch:
-./run_train.sh
+./run_train.sh \
+takes about 30 hours
 
 ### predict:
 python 4.predict.py ./{path_to_source_file}.csv ./{path_to_save}.csv 3 0 ./models/roberta_2/ ./models/deberta_1/ ./models/deberta_2/ \
