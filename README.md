@@ -39,3 +39,6 @@ takes about 30 hours
 ### predict:
 python 4.predict.py ./{path_to_source_file}.csv ./{path_to_save}.csv 3 0 ./models/roberta_2/ ./models/deberta_1/ ./models/deberta_2/ \
 make sure the column name is 'excerpt' in source csv file
+
+### solution writeup:
+https://www.kaggle.com/c/commonlitreadabilityprize/discussion/258095
